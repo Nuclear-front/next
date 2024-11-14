@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Next Page Navigator",
+  "version": "1.0",
+  "description": "Navigate to the next page on a novel website.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.wuxiaspot.com/novel/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
