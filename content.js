@@ -1,4 +1,4 @@
-console.log('write.js script loaded successfully.');
+console.log('write.js script loaded successfully.');//works
 
 document.addEventListener('DOMContentLoaded', function () {
     console.log('DOM fully loaded and parsed.');
